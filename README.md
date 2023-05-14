@@ -8,7 +8,7 @@ La aplicación permite al usuario realizar búsquedas de productos por medio de 
 
 Además, la aplicación permite al usuario agregar productos a una lista de favoritos y agregar comentarios y calificaciones a los productos.
 
-Configuración
+## Configuración
 Antes de utilizar la aplicación, es necesario configurar la API pública de MercadoLibre. Para hacerlo, se deben seguir los siguientes pasos:
 
 Ir a la página de desarrolladores de MercadoLibre
@@ -29,15 +29,15 @@ Correr las migraciones: rails db:migrate
 Iniciar el servidor: rails server
 Una vez iniciado el servidor, la aplicación se puede acceder desde un navegador web en la dirección http://localhost:3000.
 
-Uso
+## Uso
 Una vez iniciada la aplicación, se puede realizar una búsqueda de productos en la página principal. Al hacer clic en un producto, se mostrará su información detallada, incluyendo sus reseñas.
 
 Para agregar un producto a la lista de favoritos, es necesario estar registrado e iniciar sesión en la aplicación. Una vez iniciada la sesión, se puede hacer clic en el botón "Agregar a favoritos" en la página de detalles del producto.
 
 Para agregar una reseña y una calificación a un producto, es necesario estar registrado e iniciar sesión en la aplicación. Una vez iniciada la sesión, se puede hacer clic en el botón "Agregar reseña" en la página de detalles del producto y llenar el formulario correspondiente.
 
-Contribuciones
+## Contribuciones
 Si deseas contribuir a este proyecto, por favor crea un Pull Request. Todas las contribuciones son bienvenidas.
 
-Licencia
+## Licencia
 Este proyecto está bajo la Licencia MIT. Puedes ver el archivo de licencia completo aquí.
