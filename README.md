@@ -1,8 +1,9 @@
-MercadoLibre Reviews
+# MercadoLibre Reviews
 
 MercadoLibre Reviews es una aplicación web desarrollada en Ruby on Rails que permite obtener reseñas de productos en MercadoLibre. Utiliza la API pública de MercadoLibre para realizar búsquedas de productos y obtener información sobre ellos, así como también para obtener las reseñas de los usuarios.
 
 Funcionalidades
+
 La aplicación permite al usuario realizar búsquedas de productos por medio de palabras clave, y mostrará los resultados de las búsquedas en forma de lista. Al hacer clic en un producto, se mostrará su información detallada, incluyendo su título, categoría, descripción y precio. También se muestran las reseñas de los usuarios que han comprado el producto, junto con el promedio de calificación y el número de reseñas totales.
 
 Además, la aplicación permite al usuario agregar productos a una lista de favoritos y agregar comentarios y calificaciones a los productos.
