@@ -1,0 +1,27 @@
+<h1>Reseñas de productos</h1>
+
+<%= form_tag reviews_path, method: :get do %>
+  <%= text_field_tag :url %>
+  <%= submit_tag 'Buscar' %>
+<% end %>
+
+<table>
+  <thead>
+    <tr>
+      <th>Título</th>
+      <th>Fecha</th>
+      <th>Calificación</th>
+      <th>Texto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @reviews.each do |review| %>
+      <tr>
+        <td><%= review.title %></td>
+        <td><%= review.date %></td>
+        <td><%= review.rating %></td>
+        <td><%= review.text %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
